@@ -30,7 +30,7 @@ local default_plugins = {
   },
 
   {
-    "m4teoarg/nvim-colorizer.lua",
+    "NvChad/nvim-colorizer.lua",
     event = "User FilePost",
     config = function(_, opts)
       require("colorizer").setup(opts)
